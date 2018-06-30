@@ -4,7 +4,7 @@ var ben = new Person("Ben Franklin");
 var george = new Person("George Washington");
 
 george.on('speak', function (said) {
-	console.log(`${this.name} -> $(said)`);
+	console.log(`${this.name} -> ${said}`);
 })
 
 ben.on('speak', function(said) {
